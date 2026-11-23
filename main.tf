@@ -4,9 +4,10 @@ module "s3_website" {
   bucket_name = "alexander-itevu4330-samling2-lab2-website" # Bytt til noe globalt unikt (f.eks. ditt-navn-pgr301-website)
 
   tags = {
-    Name        = "ITEVU4330 Samling 2 Lab 2"
-    Environment = "Demo"
-    ManagedBy   = "Terraform"
+    Name         = "ITEVU4330 Samling 2 Lab 2"
+    Environment  = "Demo"
+    ManagedBy    = "Terraform"
+    PipelineTest = "true"
   }
 }
 
